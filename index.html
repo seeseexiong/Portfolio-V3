@@ -4,16 +4,15 @@
     <title>SX Portfolio</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Social Stories</title>
 
-    <!-- CSS  -->
+    <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-        crossorigin="anonymous">
-    <link href="css/followers.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  
 
 
 
@@ -28,7 +27,12 @@
                   <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
+            <ul class="sidenav" id="mobile-demo">
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
+    
         <!-- parallax -->
         <div class="parallax-container">
             <img src="images/chris-lawton-154388-unsplash.jpg" class="parallax responsive-img opcacity">
@@ -60,14 +64,15 @@
                 
             </div>
         </div>
-    <div class="parallax-container">
-        <div class="parallax"></div><img src="images/rawpixel-679094-unsplash.jpg" class="parallax responsive-img opcacity">
-    </div></div>
+        <div class="parallax-container">
+            <div class="parallax"></div><img src="images/rawpixel-679094-unsplash.jpg" class="parallax responsive-img opcacity">
+        </div>
 
     <script>
     $(document).ready(function(){
         $('.parallax').parallax();
         $('.modal').modal();
+        $('.sidenav').sidenav();
     });
     </script>
     <script src="js/main.js"></script>
@@ -75,8 +80,7 @@
  
     <!-- import jQuery CDN before materialize -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="js/materialize.js"></script>
+>
   </body>
 
 
