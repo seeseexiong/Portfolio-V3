@@ -1,104 +1,78 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>SX Portfolio</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+<head>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Compiled and minified CSS -->
+    <!--Import materialize.css-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  
-
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <style>
         .my-pic {
             float: left;
-            margin: 10px;
             width: 350px;
+            margin: 10px;
         }
         p {
             line-height: 30px;
         }
     </style>
-
-  </head>
-
-  <body>
-        <nav>
-            <div class="nav-wrapper">
-                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i>
-                <a href="index.html" class="brand-logo center">SX Portfolio</a>
-                <ul id="nav-mobile" class="left hide-on-med-and-down">
-                  <li><a href="portfolio.html">Portfolio</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <ul class="sidenav" id="mobile-demo">
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <li><a href="contact.html">Contact</a></li>
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo center">SX Portfolio</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="left hide-on-med-and-down">
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</li></a></li>
             </ul>
-          </nav>
+        </div>
+    </nav>
+        
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</li></a></li>
+    </ul>
+<!-- parallax ========================================================================== -->
+    <div class="parallax-container">
+        <div class="parallax"><img src="images/chris-lawton-154388-unsplash.jpg" alt="" class="responsive-img"></div>
+    </div>
+    <div class="section white">
+        <div class="row container">
+                <img src="images/porfilePic.jpg" alt="picture of me" class="my-pic responsive-img">
+                <h4 class="header">About Me</h4>
+            
+                <p class="grey-text text-darken-3 lighten-3">
+                See Xiong is a web developer student, challenging herself to innovate the future with 
+                software development.  See had always had a passion for arts, fine designs, and problem solving.  
+                In 12th grade, she took a computer coding class to fulfill for an 
+                elective course and was introduced to her first programing language - Javascript.</p>
+                
+                <p>After high school, See worked as a program coordinator with multicultural communities 
+                and performing arts.  In May 2017, she obtained her associate degree in Medical Office 
+                and became an office assistant at a home-health care facility.</p>  
+                
+                <p>In Fall 2018, See pursed her childhood dream and received full-stack, formal training 
+                from Trilogy Coding Bootcamp.</p>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="images/rawpixel-679094-unsplash.jpg"  alt="" class="responsive-img"></div>
+    </div>
 
-            <ul class="sidenav" id="mobile-demo">
-              <li><a href="sass.html">Sass</a></li>
-              <li><a href="badges.html">Components</a></li>
-              <li><a href="collapsible.html">Javascript</a></li>
-              <li><a href="mobile.html">Mobile</a></li>
-            </ul>
-    
-        <!-- parallax -->
-        <div class="parallax-container">
-            <div class="parallax"><img src="images/chris-lawton-154388-unsplash.jpg" alt="" class="responsive-img"></div>
-        </div>
-        <div class="section white">
-            <div class="row container">
-                <div>
-                    <img src="images/porfilePic.jpg" alt="picture of me" class="my-pic responsive-img">                    
-                    <h4 class="header">About Me</h4>
-                    
-                        <p class="grey-text text-darken-3 lighten-3">
-                        See Xiong is a web developer student, challenging herself to innovate the future with 
-                        software development.  See had always had a passion for arts, fine designs, and problem solving.  
-                        In 12th grade, she took a computer coding class to fulfill for an 
-                        elective course and was introduced to her first programing language - Javascript.</p>
-                        
-                        <p>After high school, See worked as a program coordinator with multicultural communities 
-                        and performing arts.  In May 2017, she obtained her associate degree in Medical Office 
-                        and became an office assistant at a home-health care facility.</p>  
-                        
-                        <p>In Fall 2018, See pursed her childhood dream and received full-stack, formal training 
-                        from Trilogy Coding Bootcamp.</p>
-                    
-                </div>
-            </div>
-        </div>
-        <div class="parallax-container">
-            <div class="parallax"><img src="images/rawpixel-679094-unsplash.jpg" class="parallax responsive-img opcacity"></div>
-        </div>
-        <footer class="page-footer">
-            <div class="footer-copyright">
-                <div class="container center-align">
-                    © 2014 Copyright Text
-                </div>
-            </div>
-        </footer>
-
-        <!-- jQueary before materialize -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-         <!--JavaScript at end of body for optimized loading-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>    </body>
-        <script>
+<!-- jQueary before materialize -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <!--JavaScript at end of body for optimized loading-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>    
+<script>
             $(document).ready(function(){
             $('.parallax').parallax();
             $('.sidenav').sidenav();
             });
         
         </script>
- 
-    </html>
+</body>
 
-
+</html>
+        
