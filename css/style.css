@@ -17,3 +17,10 @@
 .portImg {
     height: 150px
 }
+
+.my-pic {
+    float: left;
+}
+.contents {
+    float: left;
+}
