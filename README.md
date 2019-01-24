@@ -1,4 +1,12 @@
-# Portfolio-V3
+# My Portfolio
+Welcome to my portfolio - a highlight of my web development skills. 
 
-### Welcome to my web development portfolio.
-Click on this link to see my protfolio https://seeseexiong.github.io/Portfolio-V3/.
+## Getting Started
+Click [HERE](https://seeseexiong.github.io/Portfolio-V3/) to get to my portfolio!
+
+## Built With
+* Materialize - The web framework used
+* HTML/CSS - Build the wireframe
+
+## Authors
+* See Xiong - _initial work_ - [seeseexiong]( https://github.com/seeseexiong)
