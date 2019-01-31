@@ -9,7 +9,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
    <!--Google font-->
    <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">  
-   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">  
+   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
    <!-- Link my external css -->
    <link rel="stylesheet" href="css/style.css">
    <!-- Font-awesome CDN for social medial icons -->
@@ -17,22 +17,6 @@
 
 </head>
 <body>
-    <!-- Nav Bar -->
-    <nav>
-        <div class="nav-wrapper">
-            <!-- <a href="index.html" class="brand-logo center">SX Portfolio</a> -->
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="left hide-on-med-and-down">
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <!-- <li><a href="contact.html">Contact</li></a></li> -->
-            </ul>
-        </div>
-    </nav>
-        
-    <ul class="sidenav" id="mobile-demo">
-        <li><a href="portfolio.html">Portfolio</a></li>
-    </ul>
-
     <!-- parallax ========================================================================== -->
     <!-- 1st background image -->
     <div class="parallax-container">
@@ -42,20 +26,35 @@
             <p>Full-Stack Web Developer</p>
         </div>
     </div>
-
+    <!-- Nav Bar -->
+    <nav>
+        <div class="nav-wrapper">
+            <!-- <a href="index.html" class="brand-logo center">SX Portfolio</a> -->
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="left hide-on-med-and-down">
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#contactSection">Contact</a></li>
+                <li><a href="#">My Work</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Vertical NAV BAR -->
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="portfolio.html">Portfolio</a></li>
+    </ul>
     <!-- Text section -->
-    <div class="section white">
+    <div class="section white" id="aboutMe">
         <div class="row container">
             <img src="images/portrait.jpg" alt="picture of me" class="my-pic responsive-img">
             <h4 class="header">About Me</h4>
             <div class="grey-text text-darken-3 lighten-3 bioSection">
-                <p>See Xiong is a full stack web developer with a background in performing arts and 
-                medical office. She has always had a passion for computer coding, fine designs, and problem solving.  
-                In 12th grade, she took a computer coding class to fulfill for an 
-                elective course and was introduced to her first programing language - JavaScript.</p>
-                <p>See continued to self-taught and pursed her childhood dream in fall 2018 where she 
-                received formal training for full stack web development
-                from University of Minnesota Coding Bootcamp.</p>
+                <p>I’m a full-stack web developer with a background in performing arts 
+                    and medical office. I have always had a passion for computer coding, 
+                    fine designs, and problem solving. In 12th grade, I took a computer coding 
+                    class to fulfill for an elective course and was introduced to my first 
+                    programing language - JavaScript.  In fall 2018, I pursed my childhood 
+                    dream and received formal training for full-stack web development at the 
+                    University of Minnesota Coding Bootcamp.  </p>
             </div>
         </div>
 
@@ -65,7 +64,7 @@
     <div class="parallax-container">
         <div class="parallax opacityPic_2"><img src="images/rawpixel-679094-unsplash.jpg"  alt="" class="responsive-img"></div>
         <!-- CONTACT INFO -->
-        <div class="contactInfo">
+        <div class="contactInfo" id="contactSection">
             <h3 id="contactHeading">Contact Info</h3>
             <h5>Email:   sxiong2019@gmail.com</h5>
             <a class="waves-effect waves-light btn-large red lighten-2 emailButton" href="mailto:sxiong2018@gmail.com?Subject=Reg:Your Portfolio"><i class="material-icons left">email</i>Send Email</a>  
