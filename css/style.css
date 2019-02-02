@@ -1,3 +1,8 @@
+.resImg {
+	height: 100%;
+	/* width: 100%; */
+	overflow: hidden;
+}
 /* social medial icons CSS STARTS*/
 .fa {
 padding: 20px;
