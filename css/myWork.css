@@ -46,7 +46,7 @@
 }
 
 /* font inside overlay */
-.overlay b, p {
+.overlay b, .overlay p {
     line-height: 2vw;
     font-size: 1.3vw;
 }
