@@ -1,0 +1,90 @@
+.headerMyWork {
+    text-align: center;
+}
+
+.box {
+    width: 33.3%;
+    height: 30vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.leftFloat {
+    float: left;
+}
+
+.row {
+    margin: 0;
+}
+
+.boxImg {
+    width: 100%;
+}
+
+/* hovering over box's area causes image to fade*/
+.box:hover .boxImg {
+    opacity: 0.6;
+}
+
+/* hoving over box's area shows descritpion */
+.box:hover .overlay {
+  opacity: 1;
+}
+
+/* the overlay (description) is invisiable until hover over */
+.overlay {
+  position: absolute; 
+  bottom: 0;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.637); /* Black see-through */
+  color: #f1f1f1; 
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  padding: 10px;
+}
+
+/* font inside overlay */
+.overlay b, p {
+    line-height: 2vw;
+    font-size: 1.3vw;
+}
+
+/* Boxes background colors */
+/* .work1 {
+    background-color: #64bad4;
+    position: relative;
+}
+
+.work2 {
+    background-color: #d47564;
+}
+
+.work3 {
+    background-color: #64d4a0;
+}
+
+.work4 {
+    background-color: #c9d464;
+}
+
+.work5 {
+    background-color: #7c64d4;
+}
+
+.work6 {
+    background-color: #64bad4;
+}
+
+.work7 {
+    background-color: #d464cb;
+} */
+
+.work8 {
+    background-color: #d46464;
+}
+
+.work9 {
+    background-color: #d48d64;
+}
