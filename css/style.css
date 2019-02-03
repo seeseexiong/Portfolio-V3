@@ -1,37 +1,12 @@
+/* Makes parallax images responsive */
 .resImg {
 	height: 100%;
 	/* width: 100%; */
 	overflow: hidden;
 }
 
-/* social medial icons CSS STARTS*/
-.fa {
-padding: 20px;
-font-size: 20px;
-width: 55px;
-text-align: center;
-text-decoration: none;
-margin: 5px 2px;
 
-border-radius: 50%;
-}
-
-.fa:hover {
-	opacity: 0.7;
-}
-
-.fa-linkedin {
-background: #007bb5;
-color: white;
-}
-
-.fa-github {
-background: #000000;
-color: #ffffff;
-}
-/* social medial icons CSS ENDS*/
-
-
+/* Contact Info Section */
 .contactInfo {
 	position: absolute;
 	bottom: 100px;
@@ -39,9 +14,37 @@ color: #ffffff;
 	margin-top: 20px;
 	margin-left: 5%;
 	padding: 20px 20px;
-	background-color: #aca1a1c2;
+	background-color: #494848c0;
 	color: #ffffff;
 }
+
+/* social medial icons CSS STARTS*/
+.fa {
+	padding: 20px;
+	font-size: 20px;
+	width: 55px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	
+	border-radius: 50%;
+}
+	
+.fa:hover {
+	opacity: 0.7;
+}
+	
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+}
+	
+.fa-github {
+	background: #000000;
+	color: #ffffff;
+}
+/* social medial icons CSS ENDS*/
+
 
 /* Profile Picture */
 .my-pic{
@@ -132,4 +135,12 @@ color: #ffffff;
 
 .clearFloat {
 	clear: both;
+}
+
+/* footer */
+footer {
+	background-color: #1c313a;
+	color: #718792;
+	text-align: center;
+	padding: 20px;
 }
