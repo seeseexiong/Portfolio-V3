@@ -10,7 +10,7 @@
 }
 
 /* When screen's width is 611px or smaller, the height of the parallax image stays 300px ===== */
-@media screen and (max-width: 611px) {
+@media screen and (max-width: 720px) {
     .parallax-container {
         height: 300px;
     }
