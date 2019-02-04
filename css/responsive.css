@@ -1,0 +1,84 @@
+/* When screen's width is 1024 or smaller, the image stays 1024px ============================ */
+@media screen and (max-width: 1024px) {
+    .resImg {
+        width: 1024px;
+    }
+    /* Greeting section ======================== */
+    .greeting {
+    	width: 700px;
+    }
+}
+
+/* When screen's width is 611px or smaller, the height of the parallax image stays 300px ===== */
+@media screen and (max-width: 611px) {
+    .parallax-container {
+        height: 300px;
+    }
+
+    /* Greeting Section ======================== */
+    .greeting {
+        width: 400px;
+    }
+    .greeting h1 {
+        font-size: 80px;
+    }
+    .greeting p {
+        font-size: 20px;
+    }
+
+    /* font inside overlay =================================== */
+
+    .box b {
+        line-height: 30px;
+    }
+    .box p {
+        margin-top:0;
+    }
+    /* the overlay (description) is invisiable until hover over */
+    .overlay {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+    /* Contact Info Section ================================= */
+    .contactInfo {
+        margin-top: 35px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: auto;
+    }
+}
+
+/* When screen's width is 511px or smaller, the height of the parallax image stays 300px ===== */
+@media screen and (max-width: 511px) {
+
+    /* Profile Picture - the 1st FLOAT ========== */
+    .my-pic{
+        clear: both;
+    }
+    #aboutMe h4{
+        clear: both;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    /* font inside overlay */
+    .box {
+        line-height: 20px;
+        padding-top: 1px;
+    }
+    .box b {
+        font-size: 20px;
+        line-height: 10px;
+        margin-bottom: 0px;
+    }
+    .box p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    /* the overlay (description) is invisiable until hover over */
+    .overlay {
+        padding: 15px;
+      }
+  }

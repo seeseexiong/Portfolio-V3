@@ -1,0 +1,6 @@
+/* Makes parallax images responsive */
+.resImg {
+	width: 100%;
+	overflow: hidden;
+}
+

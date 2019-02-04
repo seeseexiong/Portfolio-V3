@@ -1,188 +1,196 @@
 <!DOCTYPE html>
 <html>
-<head>
-   <!--Import Google Icon Font-->
-   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-   <!-- Compiled and minified CSS -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-   <!--Let browser know website is optimized for mobile-->
-   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-   <!--Google font-->
-   <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">  
-   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
-   <!-- Link my external css for My Work -->
-   <link rel="stylesheet" href="css/myWork.css">
-   <!-- Link my external css -->
-   <link rel="stylesheet" href="css/style.css">
-   
-   <!-- Font-awesome CDN for social medial icons -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <head>
+        <title>See Xiong</title>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <!-- External CSS for parallax -->
+        <link rel="stylesheet" href="css/parallax.css">
+        <!-- External CSS for My Work -->
+        <link rel="stylesheet" href="css/myWork.css">
+        <!-- Link my external css -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- External CSS for media responsive. This one goes last because it's overriding the style.css -->
+        <link rel="stylesheet" href="css/responsive.css">
+        
+        <!--Google font-->
+        <link href="https://fonts.googleapis.com/css?family=Thasadith" rel="stylesheet">  
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
+        
+        <!-- Font-awesome CDN for social medial icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-</head>
-<body>
-    <!-- parallax ========================================================================== -->
-    <!-- 1st background image -->
-    <div class="parallax-container">
-        <div class="parallax opacityPic_1"><img src="images/chris-lawton-154388-unsplash.jpg" alt="" class="resImg"></div>
-        <div class="greeting">
-            <h1>SEE XIONG</h1>
-            <p>Full-Stack Web Developer</p>
+    </head>
+
+    <body>
+        <!-- parallax ========================================================================== -->
+        <!-- 1st background image -->
+        <div class="parallax-container">
+            <div class="parallax"><img src="images/chris-lawton-154388-unsplash.jpg" class="resImg"></div>
+            <div class="greeting">
+                <h1>SEE XIONG</h1>
+                <p>Full-Stack Web Developer</p>
+            </div>  
         </div>
-    </div>
-    <!-- Nav Bar -->
-    <nav>
-        <div class="nav-wrapper" id="navBar">
-            <!-- <a href="index.html" class="brand-logo center">SX Portfolio</a> -->
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="left hide-on-med-and-down">
-                <li><a href="#aboutMe">About Me</a></li>
-                <li><a href="#myWorkSection">My Work</a></li>
-                <li><a href="#contactSection">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-    <!-- Vertical NAV BAR -->
-    <ul class="sidenav" id="mobile-demo">
-        <li><a href="#aboutMe">About Me</a></li>
-        <li><a href="#myWorkSection">My Work</a></li>
-        <li><a href="#contactSection">Contact</a></li>
-    </ul>
-    <!-- Text section -->
-    <div class="section white">
-        <div class="container" id="aboutMe">
-            <img src="images/portrait.jpg" alt="picture of me" class="my-pic responsive-img">
-            <h4>About Me</h4>
-            <div class="grey-text text-darken-3 lighten-3 bioSection">
-                <p>I’m a full-stack web developer with a background in performing arts 
-                    and medical office. I have always had a passion for computer coding, 
-                    fine designs, and problem solving. In 12th grade, I took a computer coding 
-                    class to fulfill for an elective course and was introduced to my first 
-                    programing language - JavaScript.  In fall 2018, I pursed my childhood 
-                    dream and received formal training for full-stack web development at the 
-                    University of Minnesota Coding Bootcamp.  </p>
+
+        <!-- Nav Bar -->
+        <nav>
+            <div class="nav-wrapper" id="navBar">
+                <!-- <a href="index.html" class="brand-logo center">SX Portfolio</a> -->
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="left hide-on-med-and-down">
+                    <li><a href="#aboutMe">About Me</a></li>
+                    <li><a href="#myWorkSection">My Work</a></li>
+                    <li><a href="#contactSection">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Vertical NAV BAR -->
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#aboutMe">About Me</a></li>
+            <li><a href="#myWorkSection">My Work</a></li>
+            <li><a href="#contactSection">Contact</a></li>
+        </ul>
+
+        <!-- Text section -->
+        <div class="section white">
+            <div class="container" id="aboutMe">
+                <img src="images/portrait.jpg" alt="picture of me" class="my-pic responsive-img">
+                <h4>About Me</h4>
+                <div class="grey-text text-darken-3 lighten-3 bioSection">
+                    <p>I’m a full-stack web developer with a background in performing arts 
+                        and medical office. I have always had a passion for computer coding, 
+                        fine designs, and problem solving. In 12th grade, I took a computer coding 
+                        class to fulfill for an elective course and was introduced to my first 
+                        programing language - JavaScript.  In fall 2018, I pursed my childhood 
+                        dream and received formal training for full-stack web development at the 
+                        University of Minnesota Coding Bootcamp.  </p>
+                </div>
             </div>
         </div>
-    </div>
- <!-- Portfolio Section =========================================================================-->
-    <!-- 3 rows, 3 img boxes per row -->
-    <div class="containter clearFloat" id="myWorkSection">
-        <h4 class="headerMyWork">RECENT WORK</h4>
 
-        <!-- Row 1 -->
-        <div class="row">
-            <!-- Box1 -->
-            <a href="https://seeseexiong.github.io/Crystal-Collector">
-                <div class="box leftFloat work1">
-                    <img src="images/CrystalGame.JPG" alt="game image" class="boxImg">
-                    <div class="overlay">
-                        <b>Crystal Collector</b>
-                        <p>Game app - add numbers to match the score.</p>
-                    </div>
-                </div>
-            </a>
+        <!-- Portfolio Section =========================================================================-->
+        <!-- 3 rows, 3 img boxes per row -->
+        <div class="containter clearFloat" id="myWorkSection">
+            <h4 class="headerMyWork">RECENT WORK</h4>
 
-            <!-- Box2 -->
-            <a href="https://seeseexiong.github.io/Psychic-Game/">
-                <div class="box leftFloat work2">
-                    <img src="images/PsychicGame.JPG" alt="game image" class="boxImg">
-                    <div class="overlay">
-                        <b>Psychic Game</b>
-                        <p>Game app - guess for the correct alphabet letter.</p>
+            <!-- Row 1 -->
+            <div class="row">
+                <!-- Box1 -->
+                <a href="https://seeseexiong.github.io/Crystal-Collector">
+                    <div class="box leftFloat">
+                        <img src="images/CrystalGame.JPG" alt="game image" class="boxImg">
+                        <div class="overlay">
+                            <b>Crystal Collector</b>
+                            <p>Add numbers to match the score.</p>
+                        </div>
                     </div>
-                </div>
-            </a>
+                </a>
 
-            <!-- Box3 -->
-            <a href="https://seeseexiong.github.io/TriviaGame/">
-                <div class="box leftFloat work3">
-                    <img src="images/Trivia.jpg" alt="game image" class="boxImg">
-                    <div class="overlay">
-                        <b>Spooky Trivia</b>
-                        <p>Game app - multiple choice questions regarding Halloween.</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <!-- Row 2 -->
-        <div class="row">
-            <!-- Box1 -->
-            <a href="https://weatherwars.herokuapp.com/index.html">    
-                <div class="box leftFloat work4">
-                    <img src="images/WeatherWar.jpg" alt="game image" class="boxImg">
-                    <div class="overlay">
-                        <b>Weather Wars</b>
-                        <p>Game app - battle real-time weathers.</p>
-                    </div>
-                </div>
-            </a>
                 <!-- Box2 -->
-            <a href="https://seeseexiong.github.io/liri-node-app">
-                <div class="box leftFloat work5">
-                    <img src="images/liriBot.jpg" alt="game image" class="boxImg">
-                    <div class="overlay">
-                        <b>Liri Bot</b>
-                        <p>Command line search for songs, concerts, and movies.</p>
+                <a href="https://seeseexiong.github.io/Psychic-Game/">
+                    <div class="box leftFloat">
+                        <img src="images/PsychicGame.JPG" alt="game image" class="boxImg">
+                        <div class="overlay">
+                            <b>Psychic Game</b>
+                            <p>Guess for the correct alphabet letter.</p>
+                        </div>
                     </div>
-                </div>
-            </a>
+                </a>
+
                 <!-- Box3 -->
-            <a href="https://ancient-peak-55125.herokuapp.com/">
-                <div class="box leftFloat work6">
-                    <img src="images/friendFinder.JPG" alt="game image" class="boxImg">
-                    <div class="overlay">
-                        <b>Friend Finder</b>
-                        <p>Dating app with best match.</p>
+                <a href="https://seeseexiong.github.io/TriviaGame/">
+                    <div class="box leftFloat">
+                        <img src="images/Trivia.jpg" alt="game image" class="boxImg">
+                        <div class="overlay">
+                            <b>Spooky Trivia</b>
+                            <p>Halloween multiple choice questions.</p>
+                        </div>
                     </div>
-                </div>
-            </a>
-        </div>
-
-        <!-- Row 3 -->
-        <div class="row">
-            <!-- Box1 -->
-            <a href="https://project2-social-stories.herokuapp.com/#!">
-                <div class="box leftFloat work7">
-                    <img src="images/socialstories.JPG" alt="game image" class="boxImg">
-                    <div class="overlay">
-                        <b>Social Stories</b>
-                        <p>Social app - read all your favorite news categories in one place.</p>
-                    </div>
-                </div>
-            </a>
-            <!-- Box2 -->
-            <div class="box leftFloat work8">
+                </a>
             </div>
 
-            <!-- Box3 -->
-            <div class="box leftFloat work9">
+            <!-- Row 2 -->
+            <div class="row">
+                <!-- Box1 -->
+                <a href="https://weatherwars.herokuapp.com/index.html">    
+                    <div class="box leftFloat">
+                        <img src="images/WeatherWar.jpg" alt="game image" class="boxImg">
+                        <div class="overlay">
+                            <b>Weather Wars</b>
+                            <p>Game app - battle real-time weathers.</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- Box2 -->
+                <a href="https://seeseexiong.github.io/liri-node-app">
+                    <div class="box leftFloat">
+                        <img src="images/liriBot.jpg" alt="game image" class="boxImg">
+                        <div class="overlay">
+                            <b>Liri Bot</b>
+                            <p>Search for songs, concerts, and movies command line.</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- Box3 -->
+                <a href="https://ancient-peak-55125.herokuapp.com/">
+                    <div class="box leftFloat">
+                        <img src="images/friendFinder.JPG" alt="game image" class="boxImg">
+                        <div class="overlay">
+                            <b>Friend Finder</b>
+                            <p>Dating app with best match.</p>
+                        </div>
+                    </div>
+                </a>
             </div>
-        </div>
-    </div> <!-- ENDS My Work Section -->
+
+            <!-- Row 3 -->
+            <div class="row">
+                <!-- Box1 -->
+                <a href="https://project2-social-stories.herokuapp.com/#!">
+                    <div class="box leftFloat">
+                        <img src="images/socialstories.JPG" alt="game image" class="boxImg">
+                        <div class="overlay">
+                            <b>Social Stories</b>
+                            <p>Read all your favorite news categories in one place.</p>
+                        </div>
+                    </div>
+                </a>
+                <!-- Box2 -->
+                <div class="box leftFloat work8">
+                </div>
+                <!-- Box3 -->
+                <div class="box leftFloat work9">
+                </div>
+            </div>
+        </div> 
+        <!-- ENDS My Work Section -->
     
-<!-- 2nd background image =============================================================-->
-    <div class="parallax-container">
-        <div class="parallax opacityPic_2"><img src="images/rawpixel-679094-unsplash.jpg"  alt="" class="resImg"></div>
-        <!-- CONTACT INFO -->
-        <div class="contactInfo" id="contactSection">
-            <p id="contactHeading">Contact Info</p>
-            <p id="contactEmail">sxiong2019@gmail.com</p>
-            <a class="waves-effect waves-light btn-large emailButton" href="mailto:sxiong2018@gmail.com?Subject=Reg:Your Portfolio"><i class="material-icons left">email</i>Send Email</a>  
-            <!-- icons STARTS HERE -->
-            <a href="https://www.linkedin.com/in/see-xiong-390670116/" class="fa fa-linkedin" target="_blank"></a>
-            <a href="https://github.com/seeseexiong" class="fa fa-github" target="_blank"></a>
+        <!-- 2nd background image =============================================================-->
+        <div class="parallax-container">
+            <div class="parallax opacityPic_2"><img src="images/rawpixel-679094-unsplash.jpg" alt="" class="resImg"></div>
+            <!-- CONTACT INFO -->
+            <div class="contactInfo" id="contactSection">
+                <p id="contactHeading">Contact Info</p>
+                <p id="contactEmail">sxiong2019@gmail.com</p>
+                <a class="waves-effect waves-light btn-large emailButton" href="mailto:sxiong2018@gmail.com?Subject=Reg:Your Portfolio"><i class="material-icons left">email</i>Send Email</a>  
+                <!-- icons STARTS HERE -->
+                <a href="https://www.linkedin.com/in/see-xiong-390670116/" class="fa fa-linkedin" target="_blank"></a>
+                <a href="https://github.com/seeseexiong" class="fa fa-github" target="_blank"></a>
+            </div>
         </div>
-    </div>
 
     <footer>
         SEE XIONG © 2019
     </footer>
-
-   
-
-
 
 <!-- jQueary before materialize -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -196,7 +204,7 @@
     });
         
 </script>
-</body>
+    </body>
 
 </html>
         

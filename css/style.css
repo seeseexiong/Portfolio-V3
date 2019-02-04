@@ -1,60 +1,47 @@
-/* Makes parallax images responsive */
-.resImg {
-	height: 100%;
-	/* width: 100%; */
-	overflow: hidden;
-}
-
-
-/* Contact Info Section */
-.contactInfo {
-	position: absolute;
-	bottom: 100px;
-	width: 360px;
-	margin-top: 20px;
-	margin-left: 5%;
-	padding: 20px 20px;
-	background-color: #494848e0;
+/* Greeting header ===================================== */
+.greeting {
 	color: #ffffff;
-	font-family: 'Krub', sans-serif;
-}
-
-/* social medial icons CSS STARTS*/
-.fa {
-	padding: 20px;
-	font-size: 20px;
-	width: 55px;
+	line-height: 0px;
+	padding-bottom: 30px;
 	text-align: center;
-	text-decoration: none;
-	margin: 5px 2px;
-	
-	border-radius: 50%;
-}
-	
-.fa:hover {
-	opacity: 0.7;
-}
-	
-.fa-linkedin {
-	background: #007bb5;
-	color: white;
-}
-	
-.fa-github {
-	background: #000000;
-	color: #ffffff;
-}
-/* social medial icons CSS ENDS*/
+	background-color: #494848a2;
+	width: 900px;
 
+	position: absolute;
+	top: 30%;
+	right: 0;
+}
+.greeting h1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	font-family: 'Thasadith', sans-serif;
+	font-size: 110px;
+}
+.greeting p {
+	font-size: 30px;
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	font-family: 'Raleway', sans-serif;
+}
 
-/* Profile Picture */
+/* NavBar =========================================== */
+#navBar {
+	background-color: #1c313a;
+}
+
+#aboutMe {
+	padding: 30px;
+}
+
+/* Profile Picture - the 1st FLOAT =================== */
 .my-pic{
 	float: left;
 	width: 200px;
-	margin-top: 10px;
-	margin-right: 40px;
-	margin-bottom: 40px;
-	margin-left: 40px;
+	margin: 40px;
 	padding: 3px;
 	border-radius: 50%;
 	border: solid 1px #aca1a1c2;
@@ -67,79 +54,61 @@
 	margin-left: 30px;
 }
 
-/* Font style for About Me header */
-#aboutMe h4 {
 
-}
-
-/* Greeting header */
-.greeting {
+/* Contact Info Section ================================= */
+.contactInfo {
+	width: 360px;
+	margin-top: 100px;
+	margin-left: 5%;
+	padding: 20px 20px;
+	background-color: #494848e0;
 	color: #ffffff;
-	line-height: 0px;
-	padding-bottom: 30px;
+	font-family: 'Krub', sans-serif;
+}
+
+/* social medial icons CSS STARTS ======================== */
+.fa {
+	padding: 20px;
+	font-size: 20px;
+	width: 55px;
 	text-align: center;
-	background-color: #494848a2;
-	width: 70%;
-
-	position: absolute;
-	top: 30%;
-	right: 0;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+}	
+.fa:hover {
+	opacity: 0.7;
 }
-
-.greeting p {
-	font-size: 3vw;
-	margin-top: 0px;
-	padding-top: 0px;
-	margin-bottom: 0px;
-	padding-bottom: 0px;
-	font-family: 'Raleway', sans-serif;
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
 }
-
-.greeting h1 {
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	font-family: 'Thasadith', sans-serif;
-	font-size: 11vw;
+.fa-github {
+	background: #000000;
+	color: #ffffff;
 }
-
-#navBar {
-	background-color: #1c313a;
-}
-.opacityPic_1{
-	/* opacity: 0.7; */
-	position: relative;
-}
-
-.opacityPic_2{
-	opacity: 0.8;
-	position: relative;
-}
-
 #contactHeading {
-	margin: 0;
+	margin-top: 0;
 	font-size: 40px;
-	/* text-align: center; */
 	text-decoration: underline;
 }
-
 #contactEmail{
 	margin: 0;
 	font-size: 20px;
 }
-
-
 .emailButton {
 	background-color: #1c313a;
 }
-
 .emailButton:hover {
-	background-color: #1c313a;
 	opacity: 0.7;
 }
 
+/* 2nd background image's opacity================== */
+.opacityPic_2{
+	opacity: 0.8;
+}
 
+/* FLOATS ========================================== */
 .leftFloat {
 	float: left;
 }
@@ -152,7 +121,7 @@
 	clear: both;
 }
 
-/* footer */
+/* footer =========================================== */
 footer {
 	background-color: #1c313a;
 	color: #718792;
